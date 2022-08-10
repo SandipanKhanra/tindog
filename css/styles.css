@@ -1,179 +1,143 @@
 body {
-  font-family: "Montserrat";
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather Sans', sans-serif;
 }
 
 h1 {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 4rem;
-  line-height: 1.5;
-  font-weight: 900;
+  font-family: 'Sacramento', cursive;
+  margin: 50px auto 0;
+  font-size: 5.625rem;
+  color: #66BFBF;
 }
 
 h2 {
-  font-family: "Montserrat";
-  font-size: 3rem;
-  line-height: 1.5;
-  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+  font-weight: normal;
 }
 
 h3 {
-  font-family: "Montserrat";
-  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
 }
 
-h6 {
-  display: inline-block;
+a {
+  color: #11999E;
 }
 
 p {
-  color: #8f8f8f;
+  line-height: 2;
 }
 
-.container-fluid {
-  padding: 3% 15% 7%;
+hr{
+  border: dotted #EAF6F6 6px;
+  border-bottom: none;
+  margin: 100px auto;
+  width: 5%;
 }
 
-#title {
-  background-color: #ff4c68;
-  color: white;
-}
-
-/* Navigation Bar */
-.navbar-brand {
-  font-family: "Ubuntu";
-  font-size: 2.5rem;
-  font-weight: bold;
-}
-
-.navbar {
-  padding: 0 0 4.5rem;
-}
-
-.navbar-item {
-  padding: 0 20px;
-}
-
-.nav-link {
-  font-size: 1.2rem;
-  font-family: "Montserrat";
-  font-weight: 300;
-}
-
-/* Download Buttons */
-.download-button {
-  margin: 6% 4% 6% 0;
-}
-
-/* Title Image */
-.title-image {
-  width: 18%;
-  transform: rotate(25deg);
-  right: 25%;
-  position: absolute;
-}
-
-/* Feature Section */
-#features {
-  padding: 7% 15%;
-  background-color: #fff;
+.top-container {
+  background-color: #F1F1F1;
   position: relative;
-  z-index: 1;
+  padding-top: 100px;
 }
 
-.feature-box {
-  text-align: center;
-  padding: 6%;
+.middle-container{
+  margin: 10px 0;
+  padding-bottom: 50px;
+  padding-top: 50px;
 }
 
-.icon {
-  color: #ef8172;
-  margin-bottom: 1.5rem;
+.intro{
+  width: 30%;
+  margin: auto;
+}
+.top-cloud {
+  position: absolute;
+  right: 500px;
+  top: 50px;
 }
 
-.icon:hover {
-  color: #ff4c68;
+.bottom-cloud {
+  position: absolute;
+  left: 500px;
+  bottom: 350px;
 }
 
-/* Testimonial Section */
-#testimonials {
-  text-align: center;
-  background-color: #ef8172;
-  color: white;
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
 }
 
-.testimonial-image {
-  width: 10%;
-  border-radius: 100%;
-  margin: 20px;
+.computer-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
 }
 
-.carousel-item {
-  padding: 7% 15%;
+.code-img {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
 }
 
-#press {
-  background-color: #ef8172;
-  padding-bottom: 4%;
-  text-align: center;
+.contact-message{
+  width: 50%;
+  margin: 35px auto 50px;
 }
 
-.press-logo {
-  width: 12%;
-  margin: 20px 20px 50px;
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  margin:20px;
 }
 
-/* Pricing Section */
-#pricing {
-  padding: 7rem;
-  text-align: center;
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
 }
 
-.pricing-col {
-  padding: 4% 4%;
+.contact-me{
+  margin-bottom: 10px;
 }
 
-/* Call to Action */
-#cta {
-  padding: 7% 15%;
-  text-align: center;
-  background-color: #ff4c68;
+.bottom-container{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+}
+.footer-link{
+  color: #11999E;
+  text-decoration: none;
+  margin: 20px 10px;
+}
+a:hover{
+  color: #EAF6F6;
 }
 
-.cta-desc {
-  font-size: 4rem;
-  line-height: 1.5;
-  font-family: "Montserrat";
-  font-weight: 900;
-  color: #fff;
-}
-
-/* Footer */
-#footer{
-  padding: 7% 15%;
-  text-align:center;
-}
-.footer-icon{
-  margin: 3% 2%;
-}
-
-@media (max-width:1698px) {
-  .title-image {
-    position: relative;
-    width: 60%;
-    left: 30%;
-    transform: rotate(0);
-  }
-}
-
-@media (max-width:990px) {
-  #title {
-    text-align: center;
-  }
-
-  .title-image {
-    width: auto;
-    margin: 0 auto;
-    position: static;
-    transform: rotate(0);
-  }
+.footer-msg{
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
 }
